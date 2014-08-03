@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B252E0F198E0CB400015649 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E0E198E0CB400015649 /* main.swift */; };
+		8B252E2A198E0E0700015649 /* CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E23198E0E0700015649 /* CocoaMQTT.swift */; };
+		8B252E2B198E0E0700015649 /* CocoaMQTTFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E24198E0E0700015649 /* CocoaMQTTFrame.swift */; };
+		8B252E2C198E0E0700015649 /* CocoaMQTTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E25198E0E0700015649 /* CocoaMQTTMessage.swift */; };
+		8B252E2D198E0E0700015649 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E27198E0E0700015649 /* GCDAsyncSocket.m */; };
+		8B252E2E198E0E0700015649 /* MSWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E29198E0E0700015649 /* MSWeakTimer.m */; };
+		8B252E43198E0E1100015649 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E31198E0E1100015649 /* AFHTTPRequestOperation.m */; };
+		8B252E44198E0E1100015649 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E33198E0E1100015649 /* AFHTTPRequestOperationManager.m */; };
+		8B252E45198E0E1100015649 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E35198E0E1100015649 /* AFHTTPSessionManager.m */; };
+		8B252E46198E0E1100015649 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E38198E0E1100015649 /* AFNetworkReachabilityManager.m */; };
+		8B252E47198E0E1100015649 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E3A198E0E1100015649 /* AFSecurityPolicy.m */; };
+		8B252E48198E0E1100015649 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E3C198E0E1100015649 /* AFURLConnectionOperation.m */; };
+		8B252E49198E0E1100015649 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E3E198E0E1100015649 /* AFURLRequestSerialization.m */; };
+		8B252E4A198E0E1100015649 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E40198E0E1100015649 /* AFURLResponseSerialization.m */; };
+		8B252E4B198E0E1100015649 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E42198E0E1100015649 /* AFURLSessionManager.m */; };
+		8B252E4E198E0E4B00015649 /* SLIMPP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E4D198E0E4B00015649 /* SLIMPP.swift */; };
+		8B252E50198E0EFA00015649 /* SLIMPPRoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E4F198E0EFA00015649 /* SLIMPPRoster.swift */; };
+		8B252E52198E0F1F00015649 /* SLIMPPChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E51198E0F1F00015649 /* SLIMPPChatManager.swift */; };
+		8B252E54198E129700015649 /* SLIMPPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E53198E129700015649 /* SLIMPPMessage.swift */; };
+		8B252E56198E133A00015649 /* SLIMPPPresence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E55198E133A00015649 /* SLIMPPPresence.swift */; };
+		8B252E5C198E246000015649 /* SLIMPPHistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B252E5B198E246000015649 /* SLIMPPHistoryManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B252E09198E0CB400015649 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B252E0B198E0CB400015649 /* CocoaSLIMPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CocoaSLIMPP; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B252E0E198E0CB400015649 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8B252E23198E0E0700015649 /* CocoaMQTT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaMQTT.swift; sourceTree = "<group>"; };
+		8B252E24198E0E0700015649 /* CocoaMQTTFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaMQTTFrame.swift; sourceTree = "<group>"; };
+		8B252E25198E0E0700015649 /* CocoaMQTTMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaMQTTMessage.swift; sourceTree = "<group>"; };
+		8B252E26198E0E0700015649 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		8B252E27198E0E0700015649 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		8B252E28198E0E0700015649 /* MSWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSWeakTimer.h; sourceTree = "<group>"; };
+		8B252E29198E0E0700015649 /* MSWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSWeakTimer.m; sourceTree = "<group>"; };
+		8B252E30198E0E1100015649 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		8B252E31198E0E1100015649 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		8B252E32198E0E1100015649 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		8B252E33198E0E1100015649 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		8B252E34198E0E1100015649 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		8B252E35198E0E1100015649 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		8B252E36198E0E1100015649 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		8B252E37198E0E1100015649 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		8B252E38198E0E1100015649 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		8B252E39198E0E1100015649 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		8B252E3A198E0E1100015649 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		8B252E3B198E0E1100015649 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		8B252E3C198E0E1100015649 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		8B252E3D198E0E1100015649 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		8B252E3E198E0E1100015649 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		8B252E3F198E0E1100015649 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		8B252E40198E0E1100015649 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		8B252E41198E0E1100015649 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		8B252E42198E0E1100015649 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		8B252E4C198E0E1A00015649 /* CocoaSLIMPP-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CocoaSLIMPP-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B252E4D198E0E4B00015649 /* SLIMPP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLIMPP.swift; sourceTree = "<group>"; };
+		8B252E4F198E0EFA00015649 /* SLIMPPRoster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLIMPPRoster.swift; sourceTree = "<group>"; };
+		8B252E51198E0F1F00015649 /* SLIMPPChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLIMPPChatManager.swift; sourceTree = "<group>"; };
+		8B252E53198E129700015649 /* SLIMPPMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLIMPPMessage.swift; sourceTree = "<group>"; };
+		8B252E55198E133A00015649 /* SLIMPPPresence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLIMPPPresence.swift; sourceTree = "<group>"; };
+		8B252E5B198E246000015649 /* SLIMPPHistoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLIMPPHistoryManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B252E08198E0CB400015649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B252E02198E0CB300015649 = {
+			isa = PBXGroup;
+			children = (
+				8B252E4C198E0E1A00015649 /* CocoaSLIMPP-Bridging-Header.h */,
+				8B252E2F198E0E1100015649 /* AFNetworking */,
+				8B252E22198E0E0700015649 /* CocoaMQTT */,
+				8B252E0D198E0CB400015649 /* CocoaSLIMPP */,
+				8B252E0C198E0CB400015649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B252E0C198E0CB400015649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B252E0B198E0CB400015649 /* CocoaSLIMPP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B252E0D198E0CB400015649 /* CocoaSLIMPP */ = {
+			isa = PBXGroup;
+			children = (
+				8B252E0E198E0CB400015649 /* main.swift */,
+				8B252E4D198E0E4B00015649 /* SLIMPP.swift */,
+				8B252E55198E133A00015649 /* SLIMPPPresence.swift */,
+				8B252E4F198E0EFA00015649 /* SLIMPPRoster.swift */,
+				8B252E51198E0F1F00015649 /* SLIMPPChatManager.swift */,
+				8B252E53198E129700015649 /* SLIMPPMessage.swift */,
+				8B252E5B198E246000015649 /* SLIMPPHistoryManager.swift */,
+			);
+			path = CocoaSLIMPP;
+			sourceTree = "<group>";
+		};
+		8B252E22198E0E0700015649 /* CocoaMQTT */ = {
+			isa = PBXGroup;
+			children = (
+				8B252E23198E0E0700015649 /* CocoaMQTT.swift */,
+				8B252E24198E0E0700015649 /* CocoaMQTTFrame.swift */,
+				8B252E25198E0E0700015649 /* CocoaMQTTMessage.swift */,
+				8B252E26198E0E0700015649 /* GCDAsyncSocket.h */,
+				8B252E27198E0E0700015649 /* GCDAsyncSocket.m */,
+				8B252E28198E0E0700015649 /* MSWeakTimer.h */,
+				8B252E29198E0E0700015649 /* MSWeakTimer.m */,
+			);
+			path = CocoaMQTT;
+			sourceTree = "<group>";
+		};
+		8B252E2F198E0E1100015649 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8B252E30198E0E1100015649 /* AFHTTPRequestOperation.h */,
+				8B252E31198E0E1100015649 /* AFHTTPRequestOperation.m */,
+				8B252E32198E0E1100015649 /* AFHTTPRequestOperationManager.h */,
+				8B252E33198E0E1100015649 /* AFHTTPRequestOperationManager.m */,
+				8B252E34198E0E1100015649 /* AFHTTPSessionManager.h */,
+				8B252E35198E0E1100015649 /* AFHTTPSessionManager.m */,
+				8B252E36198E0E1100015649 /* AFNetworking.h */,
+				8B252E37198E0E1100015649 /* AFNetworkReachabilityManager.h */,
+				8B252E38198E0E1100015649 /* AFNetworkReachabilityManager.m */,
+				8B252E39198E0E1100015649 /* AFSecurityPolicy.h */,
+				8B252E3A198E0E1100015649 /* AFSecurityPolicy.m */,
+				8B252E3B198E0E1100015649 /* AFURLConnectionOperation.h */,
+				8B252E3C198E0E1100015649 /* AFURLConnectionOperation.m */,
+				8B252E3D198E0E1100015649 /* AFURLRequestSerialization.h */,
+				8B252E3E198E0E1100015649 /* AFURLRequestSerialization.m */,
+				8B252E3F198E0E1100015649 /* AFURLResponseSerialization.h */,
+				8B252E40198E0E1100015649 /* AFURLResponseSerialization.m */,
+				8B252E41198E0E1100015649 /* AFURLSessionManager.h */,
+				8B252E42198E0E1100015649 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B252E0A198E0CB400015649 /* CocoaSLIMPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B252E12198E0CB400015649 /* Build configuration list for PBXNativeTarget "CocoaSLIMPP" */;
+			buildPhases = (
+				8B252E07198E0CB400015649 /* Sources */,
+				8B252E08198E0CB400015649 /* Frameworks */,
+				8B252E09198E0CB400015649 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaSLIMPP;
+			productName = CocoaSLIMPP;
+			productReference = 8B252E0B198E0CB400015649 /* CocoaSLIMPP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B252E03198E0CB400015649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = slimpp.io;
+				TargetAttributes = {
+					8B252E0A198E0CB400015649 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 8B252E06198E0CB400015649 /* Build configuration list for PBXProject "CocoaSLIMPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B252E02198E0CB300015649;
+			productRefGroup = 8B252E0C198E0CB400015649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B252E0A198E0CB400015649 /* CocoaSLIMPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B252E07198E0CB400015649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B252E4B198E0E1100015649 /* AFURLSessionManager.m in Sources */,
+				8B252E0F198E0CB400015649 /* main.swift in Sources */,
+				8B252E2E198E0E0700015649 /* MSWeakTimer.m in Sources */,
+				8B252E46198E0E1100015649 /* AFNetworkReachabilityManager.m in Sources */,
+				8B252E54198E129700015649 /* SLIMPPMessage.swift in Sources */,
+				8B252E2D198E0E0700015649 /* GCDAsyncSocket.m in Sources */,
+				8B252E48198E0E1100015649 /* AFURLConnectionOperation.m in Sources */,
+				8B252E45198E0E1100015649 /* AFHTTPSessionManager.m in Sources */,
+				8B252E50198E0EFA00015649 /* SLIMPPRoster.swift in Sources */,
+				8B252E52198E0F1F00015649 /* SLIMPPChatManager.swift in Sources */,
+				8B252E49198E0E1100015649 /* AFURLRequestSerialization.m in Sources */,
+				8B252E2C198E0E0700015649 /* CocoaMQTTMessage.swift in Sources */,
+				8B252E2A198E0E0700015649 /* CocoaMQTT.swift in Sources */,
+				8B252E56198E133A00015649 /* SLIMPPPresence.swift in Sources */,
+				8B252E2B198E0E0700015649 /* CocoaMQTTFrame.swift in Sources */,
+				8B252E44198E0E1100015649 /* AFHTTPRequestOperationManager.m in Sources */,
+				8B252E5C198E246000015649 /* SLIMPPHistoryManager.swift in Sources */,
+				8B252E4E198E0E4B00015649 /* SLIMPP.swift in Sources */,
+				8B252E47198E0E1100015649 /* AFSecurityPolicy.m in Sources */,
+				8B252E4A198E0E1100015649 /* AFURLResponseSerialization.m in Sources */,
+				8B252E43198E0E1100015649 /* AFHTTPRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B252E10198E0CB400015649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B252E11198E0CB400015649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8B252E13198E0CB400015649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CocoaSLIMPP-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		8B252E14198E0CB400015649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CocoaSLIMPP-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B252E06198E0CB400015649 /* Build configuration list for PBXProject "CocoaSLIMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B252E10198E0CB400015649 /* Debug */,
+				8B252E11198E0CB400015649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B252E12198E0CB400015649 /* Build configuration list for PBXNativeTarget "CocoaSLIMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B252E13198E0CB400015649 /* Debug */,
+				8B252E14198E0CB400015649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B252E03198E0CB400015649 /* Project object */;
+}
